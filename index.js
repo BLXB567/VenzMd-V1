@@ -8,7 +8,7 @@ const Readline = require('readline')
 const yargs = require('yargs/yargs')
 const rl = Readline.createInterface(process.stdin, process.stdout)
 
-CFonts.say('Venz-MD\nMulti-device ', {
+CFonts.say('Miyuko DVT\nDevils V Tiers ', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
