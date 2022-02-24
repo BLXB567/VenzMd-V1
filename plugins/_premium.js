@@ -7,7 +7,7 @@ handler.before = async function (m) {
         if (new Date() * 1 >= user.premiumTime) {
             await m.reply(`waktu premium kamu sudah habis!`)
             user.premiumTime = 0
-            user.premium = false
+            user.premium = true
         }
     }
 }
